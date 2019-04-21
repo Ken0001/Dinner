@@ -1,0 +1,11 @@
+def dinner(restaurant, rn, s, md, k, b):
+    if restaurant=='涼麵屋':
+        rice_of_noodle=['麵','飯']
+        sauce=['芝麻醬','和風醬']
+        maindish=['巨雞排','巨雞腿','巨熱狗','黃金豬排','吮指雞球','海鮮卷','招牌','雞絲','旗艦']
+        kimchi=['要泡菜','不要泡菜']
+        bigggg=['正常','加大']
+    myDinner=sauce[s]+rice_of_noodle[rn]+maindish[md]+kimchi[k]+bigggg[b]
+    return myDinner
+
+print(dinner('涼麵屋', 0, 1, 3, 0, 1))
